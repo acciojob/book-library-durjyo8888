@@ -1,21 +1,21 @@
 /*  your css code here. If applicable */
   body {
             background-color: #f8f8f8;
-            margin: 1;
-            padding: 0;
+           
             font-family: Arial, sans-serif;
-	  width:540px;
+	
         }
 
         .book-library {
-            background-color: #ffffff;
-/*             display: flex; */
-            justify-content: space-between;//
-/*             flex-wrap: wrap;/ */
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;/
             padding: 20px;
 /*             gap: 20px; */
 /*             max-width: 1200px; */
-            margin:auto;
+/*             margin:auto; */
+			background-coler:lightgray;
         }
 
         .book {
@@ -25,7 +25,7 @@
             padding: 20px;
 /*             width: calc(33.33% - 20px); */
 			width:500px;
-			 margin-top: 20px;
+/* 			 margin-top: 20px; */
 			text-align:center
         }
 
@@ -34,6 +34,7 @@
             height: auto;
 /* 			text-align:center; */
 /* 			display: flex; */
+			margin-bottom:10px;
 			
         }
 
@@ -57,14 +58,6 @@
             margin-top: 10px;
 			text-align:center;
         }
-.library{
-	background-color: #ffffff;
-            border: 1px solid #dddddd;
-            border-radius: 5px;
-            padding: 20px;
-/*             width: calc(33.33% - 20px); */
-			width:500px;
-			 margin-top: 20px;
-			text-align:center;
-	font-weight: bold;
+h1{
+	text-align:center;
 }
